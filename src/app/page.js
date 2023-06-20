@@ -1,3 +1,4 @@
+import FloatingWhatsAppButton from "@/components/FloatingWhatsAppButton";
 import Clients from "@/components/clients";
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
@@ -17,6 +18,7 @@ export default function Home() {
       <Team />
       <Contact />
       <Footer />
+      <FloatingWhatsAppButton />
     </main>
   );
 }
