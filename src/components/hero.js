@@ -10,12 +10,18 @@ export default function Hero() {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["a sua vida.", "o seu negócio.", "a sua família.", "você trabalhador.", "você consumidor."],
+      strings: [
+        "a sua vida.",
+        "o seu negócio.",
+        "a sua família.",
+        "você trabalhador.",
+        "você consumidor.",
+      ],
       typeSpeed: 90,
       startDelay: 1000,
       fadeOut: true,
-        fadeOutClass: "typed-fade-out",
-        fadeOutDelay: 500,
+      fadeOutClass: "typed-fade-out",
+      fadeOutDelay: 500,
       loop: true,
     });
 
@@ -52,10 +58,11 @@ export default function Hero() {
               <div className="mb-12">
                 <h1 className="text-4xl leading-normal text-black font-bold mb-4">
                   Silveira & Toledo Advogados
-                  <br />Trazendo segurança jurídica para
+                  <br />
+                  Trazendo segurança jurídica para
                   <span
                     className="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-amber-700 ml-2"
-                  ref={el}
+                    ref={el}
                     data-toggle="typed"
                   ></span>
                 </h1>
@@ -141,8 +148,7 @@ export default function Hero() {
 
               <a
                 className="py-2.5 px-10 inline-block text-center leading-normal text-gray-100 bg-black border-b border-gray-800 hover:text-white hover:ring-0 focus:outline-none focus:ring-0"
-                target="_blank"
-                href="https://aribudin.gumroad.com/l/tailone"
+                href="#contact"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
